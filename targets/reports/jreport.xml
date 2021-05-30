@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.63313">
+<testcase classname="Register a user for elearnup page" name="verify that the user is able to signup the user with relevant information" time="22.63313">
+<failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:42)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:53)&#10;&#9;at StepDefinition.stepdefinition.confirmation_message_is_displayed_in_the_screen(stepdefinition.java:62)&#10;&#9;at ✽.Then confirmation message is displayed in the screen(signup.feature:10)&#10;"><![CDATA[Given user should be on the home page.......................................passed
+When user clicks on Sign up button..........................................passed
+And user enters the necessary information "abc","xyz","a@a.com","test492","Test!@34","Test!@34".passed
+And user clicks on Register button..........................................passed
+Then confirmation message is displayed in the screen........................failed
+And user clicks on profile button in the top right corner...................skipped
+Then user email is verified in the screen...................................skipped
+And user clicks on the Inbox button.........................................skipped
+Then user is naviagated to the new Send Message screen......................skipped
+And user enteres "virat","Subject text".....................................skipped
+When user clicks on Send Message............................................skipped
+Then Acknowledgment message is sent to "virat kohli (virat)"................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at StepDefinition.stepdefinition.confirmation_message_is_displayed_in_the_screen(stepdefinition.java:62)
+	at ✽.Then confirmation message is displayed in the screen(signup.feature:10)
+]]></failure>
+</testcase>
+</testsuite>

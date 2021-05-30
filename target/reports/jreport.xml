@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="3" time="0">
+<testcase classname="google search functioanlity" name="verify the google search with different values" time="0">
+<skipped><![CDATA[Given login the application.................................................undefined
+Given user should be on the main page.......................................undefined
+When User search "facebook".................................................undefined
+And clicks on Search button.................................................undefined
+Then Results will be populated..............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="google search functioanlity" name="verify the google search with different values 2" time="0">
+<skipped><![CDATA[Given login the application.................................................undefined
+Given user should be on the main page.......................................undefined
+When User search "ibm"......................................................undefined
+And clicks on Search button.................................................undefined
+Then Results will be populated..............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="google search functioanlity" name="verify the google search with different values 3" time="0">
+<skipped><![CDATA[Given login the application.................................................undefined
+Given user should be on the main page.......................................undefined
+When User search "DXC"......................................................undefined
+And clicks on Search button.................................................undefined
+Then Results will be populated..............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
